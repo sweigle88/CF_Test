@@ -1,0 +1,12 @@
+---
+# this manifest will deploy a static HTML and
+# a simple php hello world app
+applications:
+- name: justice
+  memory: 64M
+  instances: 2
+  path: ./justice/
+- name: jsa
+  memory: 128M
+  instances: 2
+  path: ./jsa/  
